@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Questrial&display=swap');
+
+body {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	background: #fdffed;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+.smallContainer {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.navBox {
+	display: flex;
+	justify-content: center;
+	padding: 50px 30px 60px 30px;
+	font-weight: bold;
+}
+
+.navMenu {
+	display : flex;
+	justify-content: space-between;
+ 	align-items: center;
+ 	width: 80vmin;
+  	font-size: 25px;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+ 	color: #b55e1b;
+  	transition: color 0.5s ease; 
+}
+
+a:hover {
+	color: #1b4eb5;
+}
+
+.aboutSec {
+    display: flex;
+    align-items: center;
+}
+
+.aboutDesc2 {
+	margin-right: 100px;
+	line-height: 35px;
+	font-size: 20px;
+}
+
+.aboutImg img{
+  	width: 300px;
+  	height: 300px;
+  	object-fit: cover;
+  	margin-right: 30px;
+}
+
+h1 {
+	font-size: 35px;
+ 	color: #b55e1b;
+}
+
+.smallTitle {
+	font-size: 35px;
+ 	color: #b55e1b;
+ 	font-weight: bold;
+	margin-bottom: 30px; /* title gap */
+}
+
+.algorithmClass{
+	margin-top: 100px;
+}
+
+.smallQ{
+	font-size: 27px;
+ 	color: #b55e1b;
+ 	font-weight: bold;
+}
+
+
+.algorithmSec{
+	display: flex;
+}
+
+.algorithmDesc{
+	margin-left: 100px;
+	line-height: 35px;
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+
+
+.algorithmsImg img{
+  	width: 300px;
+  	height: 300px;
+  	object-fit: cover;
+  	margin-left: 60px;
+  	margin-top: 80px;
+}
+
+.algorithmComSec{
+	display: flex;
+	margin-left: 90px;
+	line-height: 35px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+
+.companyImg img{
+  	width: 300px;
+  	height: 300px;
+  	object-fit: cover;
+  	margin-left: 140px;
+  	margin-top: 140px;
+}
+
+.effectClass{
+	margin-top: 85px;
+}
+
+.avdImg img{
+  	width: 250px;
+  	height: 250px;
+  	object-fit: cover;
+  	margin-left: 150px;
+  	margin-top: 95px;
+}
+
+.avdDesc {
+	margin-left: 130px;
+	line-height: 35px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	line-height: 45px;
+}
+
+.divImg img{
+  	width: 250px;
+  	height: 250px;
+  	object-fit: cover;
+  	margin-left: 60px;
+  	margin-top: 160px;
+}
+
+.divDesc {
+	margin-top: 40px;
+	line-height: 45px;
+}
+
+.navImg img{
+  	width: 100px;
+  	height: 100px;
+  	object-fit: cover;
+  	margin-right: 100px;
+}
+
+.instaImg img {
+	width: 200px;
+  	height: 200px;
+  	object-fit: cover;
+  	margin-right: 30px;
+  	margin-top: 100px;
+}
+
+.tiktokImg img {
+	width: 200px;
+  	height: 200px;
+  	object-fit: cover;
+  	margin-right: 30px;
+  	margin-top: 60px;
+}
+
+.instaAgoImg img{
+  	width: 250px;
+  	height: 250px;
+  	object-fit: cover;
+  	margin-left: 60px;
+  	margin-top: 160px;
+}
+
+.ttAgoImg img{
+  	width: 250px;
+  	height: 250px;
+  	object-fit: cover;
+  	margin-left: 60px;
+  	margin-top: 95px;
+}
+
+.instaSec{
+	display: flex;
+}
+
+.tikSec{
+	display: flex;
+}
+
+h1 {
+  transition: color 0.5s ease; 
+}
+
+h1:hover {
+  color: #1b4eb5;
+}
+
+.line {
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 1200px;
+  	border-top: 3px solid #b55e1b;
+  	margin-bottom: 60px;
+}
+
+.algorithmExp {
+	display: flex;
+	margin-left: 30px;
+	line-height: 35px;
+	font-size: 20px;
+	margin-bottom: 30px;	
+}
+
+.algorithmComSecEnd{
+	display: flex;
+	margin-left: 30px;
+	line-height: 35px;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.influImg Img{
+	width: 200px;
+  	height: 200px;
+  	object-fit: cover;
+  	margin-left: 300px;
+  	margin-top: 20px;
+}
+
+.tikBiglist {
+	display: flex;
+}
+
+.instaBigList {
+	display: flex;
+}
+
+.tikImg1 Img {
+	width: 200px;
+  	height: 200px;
+  	object-fit: cover;
+  	margin-left: 400px;
+  	margin-top: 130px;
+}
+
+.tikImg2 Img {
+	width: 200px;
+  	height: 200px;
+  	object-fit: cover;
+  	margin-left: 535px;
+  	margin-top: 55px;
+}
+
+.tikImg3 Img {
+	width: 200px;
+  	height: 200px;
+  	object-fit: cover;
+  	margin-left: 160px;
+  	margin-top: 15px;
+}
+
+.tikImg4 Img {
+	width: 200px;
+  	height: 200px;
+  	object-fit: cover;
+  	margin-right: 30px;
+  	margin-top: 15px;
+}
